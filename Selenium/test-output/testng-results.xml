@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8704" started-at="2020-11-26T20:02:11 IST" finished-at="2020-11-26T20:02:19 IST">
+  <suite name="Default suite" duration-ms="19090" started-at="2020-11-30T20:58:15 IST" finished-at="2020-11-30T20:58:34 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8704" started-at="2020-11-26T20:02:11 IST" finished-at="2020-11-26T20:02:19 IST">
-      <class name="Selenium_Baiscs.Xpath">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Selenium_Baiscs.Xpath@4f059981]" name="setUp" is-config="true" duration-ms="7673" started-at="2020-11-26T20:02:11 IST" finished-at="2020-11-26T20:02:18 IST">
+    <test name="Default test" duration-ms="19090" started-at="2020-11-30T20:58:15 IST" finished-at="2020-11-30T20:58:34 IST">
+      <class name="Selenium_Baiscs.AssertUniqueAssignment">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Selenium_Baiscs.AssertUniqueAssignment@7e2255f2]" name="setUp" is-config="true" duration-ms="17668" started-at="2020-11-30T20:58:15 IST" finished-at="2020-11-30T20:58:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="xPath()[pri:0, instance:Selenium_Baiscs.Xpath@4f059981]" name="xPath" duration-ms="723" started-at="2020-11-26T20:02:18 IST" finished-at="2020-11-26T20:02:19 IST">
+        <test-method status="PASS" signature="test()[pri:0, instance:Selenium_Baiscs.AssertUniqueAssignment@7e2255f2]" name="test" duration-ms="739" started-at="2020-11-30T20:58:33 IST" finished-at="2020-11-30T20:58:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- xPath -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Selenium_Baiscs.Xpath@4f059981]" name="tearDown" is-config="true" duration-ms="257" started-at="2020-11-26T20:02:19 IST" finished-at="2020-11-26T20:02:19 IST">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDwn()[pri:0, instance:Selenium_Baiscs.AssertUniqueAssignment@7e2255f2]" name="tearDwn" is-config="true" duration-ms="521" started-at="2020-11-30T20:58:33 IST" finished-at="2020-11-30T20:58:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Selenium_Baiscs.Xpath -->
+        </test-method> <!-- tearDwn -->
+      </class> <!-- Selenium_Baiscs.AssertUniqueAssignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

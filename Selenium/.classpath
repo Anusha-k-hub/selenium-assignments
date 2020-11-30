@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="D:/Selenium/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/kacha/Downloads/selenium-chrome-driver-3.141.59.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/kacha/Downloads/JarsRuleSetLoggingFiles/Jars-RuleSet-LoggingFiles/LoggingFiles/LoggingJars/log4j-core-2.8.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

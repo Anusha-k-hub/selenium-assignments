@@ -1,5 +1,6 @@
 package Selenium_Baiscs;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -27,12 +28,18 @@ public class DropDown {
 	}
 	@Test
 	public void dropDownTest() {
-		WebElement drop1=driver.findElement(By.id("option-droup-demo"));
-		Select s1=new Select(drop1);
-		s1.selectByValue("jQuery");
-		WebElement drop2=driver.findElement(By.id("option-droup-demo"));
-		Select s2=new Select(drop2);
-		s2.selectByValue("csharp");
+		driver.findElement(By.xpath("//button[contains(@class,'multiselect')]")).click();
+		List<WebElement> list = driver.findElements(By.xpath("//ul[contains(@class,'multiselect-container')]//li//a//label"));
+		System.out.println(list.size());
+		for(int i=0;i<list.size();i++) {
+			System.out.println(list.get(i).getText());
+			if(list.get(i).getText().contains("Angular")) {
+				list.get(i).click();
+				break;
+			}
+		}
+	
 	}
+	
 
 }
