@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_Baiscs.Draganddrop">
+      <class name="Selenium_Baiscs.Dataprovider">
         <methods>
-          <include name="test"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- Selenium_Baiscs.Draganddrop -->
+      </class> <!-- Selenium_Baiscs.Dataprovider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

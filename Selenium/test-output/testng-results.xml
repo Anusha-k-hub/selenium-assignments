@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19090" started-at="2020-11-30T20:58:15 IST" finished-at="2020-11-30T20:58:34 IST">
+  <suite name="Default suite" duration-ms="145" started-at="2020-12-02T13:22:48 IST" finished-at="2020-12-02T13:22:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19090" started-at="2020-11-30T20:58:15 IST" finished-at="2020-11-30T20:58:34 IST">
-      <class name="Selenium_Baiscs.AssertUniqueAssignment">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Selenium_Baiscs.AssertUniqueAssignment@7e2255f2]" name="setUp" is-config="true" duration-ms="17668" started-at="2020-11-30T20:58:15 IST" finished-at="2020-11-30T20:58:32 IST">
+    <test name="Default test" duration-ms="145" started-at="2020-12-02T13:22:48 IST" finished-at="2020-12-02T13:22:48 IST">
+      <class name="Selenium_Baiscs.Dataprovider">
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:Selenium_Baiscs.Dataprovider@b62007e9]" name="setData" duration-ms="32" started-at="2020-12-02T13:22:48 IST" data-provider="getData" finished-at="2020-12-02T13:22:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sampleuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium_Baiscs.AssertUniqueAssignment@7e2255f2]" name="test" duration-ms="739" started-at="2020-11-30T20:58:33 IST" finished-at="2020-11-30T20:58:33 IST">
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:Selenium_Baiscs.Dataprovider@b62007e9]" name="setData" duration-ms="0" started-at="2020-12-02T13:22:48 IST" data-provider="getData" finished-at="2020-12-02T13:22:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcvb]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDwn()[pri:0, instance:Selenium_Baiscs.AssertUniqueAssignment@7e2255f2]" name="tearDwn" is-config="true" duration-ms="521" started-at="2020-11-30T20:58:33 IST" finished-at="2020-11-30T20:58:34 IST">
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:Selenium_Baiscs.Dataprovider@b62007e9]" name="setData" duration-ms="8" started-at="2020-12-02T13:22:48 IST" data-provider="getData" finished-at="2020-12-02T13:22:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guestuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDwn -->
-      </class> <!-- Selenium_Baiscs.AssertUniqueAssignment -->
+        </test-method> <!-- setData -->
+      </class> <!-- Selenium_Baiscs.Dataprovider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
