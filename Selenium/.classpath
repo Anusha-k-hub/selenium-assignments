@@ -22,5 +22,11 @@
 	<classpathentry kind="lib" path="D:/Selenium/extentreport/mongodb-driver-3.0.4.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium/extentreport/mongodb-driver-core-3.0.4.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium/extentreport/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/poi/poi-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/poi/poi-examples-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/poi/poi-excelant-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/poi/poi-ooxml-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/poi/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/poi/poi-scratchpad-4.1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

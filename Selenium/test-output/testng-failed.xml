@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_Baiscs.Dataprovider">
+      <class name="Selenium_Baiscs.Assertion">
         <methods>
-          <include name="f"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Selenium_Baiscs.Dataprovider -->
+      </class> <!-- Selenium_Baiscs.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
